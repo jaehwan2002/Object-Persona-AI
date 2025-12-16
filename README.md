@@ -55,7 +55,7 @@ Object Persona AI는 사용자가 업로드한 **일상 사물 이미지**를
 
 ▶️ https://youtu.be/U8FDCI-Jr5A
 
-
+---
 📁 프로젝트 구조
 Object-Persona-AI/
 ├── assets/
@@ -70,7 +70,6 @@ Object-Persona-AI/
 ├── web_app.py
 └── .gitignore
 
----
 🚀 실행 방법
 pip install -r requirements.txt
 streamlit run web_app.py
