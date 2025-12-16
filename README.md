@@ -70,6 +70,7 @@ Object-Persona-AI/
 ├── web_app.py
 └── .gitignore
 
+---
 🚀 실행 방법
 pip install -r requirements.txt
 streamlit run web_app.py
