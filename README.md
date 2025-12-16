@@ -55,6 +55,31 @@ Object Persona AI는 사용자가 업로드한 **일상 사물 이미지**를
 pip install -r requirements.txt
 streamlit run web_app.py
 
+🎬 데모 동영상
 
-데모 동영상 링크
-(https://youtu.be/U8FDCI-Jr5A)
+아래 링크에서 실제 실행 과정을 확인할 수 있습니다.
+
+▶️ https://youtu.be/U8FDCI-Jr5A
+
+
+📁 프로젝트 구조
+Object-Persona-AI/
+├── assets/
+│   ├── eyes/
+│   └── mouths/
+├── models/
+│   └── unet_model.py
+├── utils/
+│   ├── mask_inference.py
+│   ├── compose_character.py
+│   └── persona_text.py
+├── web_app.py
+└── .gitignore
+
+✅ 특징 요약
+
+딥러닝 + 전통적 컴퓨터 비전 기법을 결합한 설계
+
+단순 모델 사용이 아닌 전체 시스템 파이프라인 구현
+
+과제 제출용이면서 실제 서비스 형태를 고려한 구조
